@@ -10,7 +10,7 @@ import { validateDocs } from "../src/validate.js";
 program
     .name("onboard-plugin")
     .description("Interactive project onboarding for AI coding agents")
-    .version("0.1.0");
+    .version("0.1.1");
 
 program
     .command("init")

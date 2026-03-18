@@ -1,6 +1,6 @@
 {
   "name": "onboard-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Interactive project onboarding for AI coding agents. Generates CLAUDE.md, SPEC.md, TASKS.md through structured interviews.",
   "keywords": [
     "claude-code",
@@ -54,6 +54,7 @@
     "@types/node": "^20.0.0",
     "@types/prompts": "^2.4.9",
     "eslint": "^9.0.0",
+    "jiti": "^2.6.1",
     "tsup": "^8.0.0",
     "tsx": "^4.0.0",
     "typescript": "^5.4.0",

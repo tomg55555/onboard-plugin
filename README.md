@@ -83,23 +83,3 @@ only the suggestions change.
 ## License
 
 MIT
-
----
-
-## Publishing
-
-```bash
-# 1. Build and test
-npm install
-npm run build
-npm test
-
-# 2. Login to npm
-npm login
-
-# 3. Publish
-npm publish
-
-# 4. Users can then:
-npx onboard-plugin init
-```
