@@ -15,7 +15,7 @@
   "author": "tomg55555",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomg55555/onboard-plugin"
+    "url": "git+https://github.com/tomg55555/onboard-plugin.git"
   },
   "type": "module",
   "exports": {
@@ -25,7 +25,7 @@
     "./validate": "./dist/validate.js"
   },
   "bin": {
-    "onboard-plugin": "./dist/bin/cli.js"
+    "onboard-plugin": "dist/bin/cli.js"
   },
   "files": [
     "dist/",
